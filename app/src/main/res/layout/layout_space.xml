@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view_Whole_Spaces"
+    android:layout_width="match_parent"
+    android:layout_above="@+id/view_Whole_Spaces"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/spaceName_TxtVw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Car Parking"
+        android:textColor="@android:color/black"
+        android:textStyle="normal"
+        android:textSize="17sp"/>
+
+    <TextView
+        android:id="@+id/ownerName_TxtVw_Spaces"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spaceName_TxtVw"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="3dp"
+        android:text="Mohammed Mazhar"
+        android:textColor="#708090"
+        android:textStyle="normal"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/address_TxtVw_Spaces"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ownerName_TxtVw_Spaces"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="3dp"
+        android:singleLine="true"
+        android:text="12-21 masabtank hyderabad"
+        android:textColor="#708090"
+        android:textStyle="normal"
+        android:textSize="16sp"/>
+    <TextView
+        android:id="@+id/phone_TxtVw_Spaces"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/address_TxtVw_Spaces"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="3dp"
+        android:text="ph : 7981848815"
+        android:textColor="#708090"
+        android:textStyle="normal"
+        android:textSize="16sp"/>
+    <View
+        android:id="@+id/line1_Addresse"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@android:color/darker_gray"
+        android:layout_below="@+id/phone_TxtVw_Spaces" />
+
+
+</RelativeLayout>
