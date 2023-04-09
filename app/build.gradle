@@ -10,7 +10,7 @@ android {
     defaultConfig {
         applicationId "com.example.parkingmanagement"
         minSdk 24
-        targetSdk 33
+        targetSdk 31
         versionCode 1
         versionName "1.0"
 
@@ -40,8 +40,8 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 
 
-    implementation 'com.google.firebase:firebase-core:11.8.0'
-    implementation 'com.google.firebase:firebase-database:18.0.1'
-    implementation 'com.google.firebase:firebase-storage:16.0.1'
-    implementation 'com.firebaseui:firebase-ui-database:3.2.2'
+    implementation 'com.google.firebase:firebase-core:21.1.1'
+    implementation 'com.google.firebase:firebase-database:20.1.0'
+    implementation 'com.google.firebase:firebase-storage:20.1.0'
+
 }
